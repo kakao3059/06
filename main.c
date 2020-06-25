@@ -12,6 +12,8 @@ void bar()
 
 int main()
 {
+    char bb[2]="";
+    strcpy(bb, "abcdefghijklmnop");
         foo();
         bar();
     
